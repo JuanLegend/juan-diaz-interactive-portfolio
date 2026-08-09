@@ -15,7 +15,7 @@ Después abre `http://127.0.0.1:8000/`.
 - [Carnes Rojas](https://carnes-de-res-rojas.vercel.app/)
 - [Foto Quince Cali](https://foto-quince-cali.vercel.app/)
 - [El Rancho de Jonás](https://el-rancho-de-jonas.vercel.app/)
-- [Jurídicos Asociados](https://abogados-cali-juridicos.vercel.app/)
+- [Dr. Juan Solís](https://dr-juan-solis-landing.vercel.app/)
 - Portafolio de Juan José
 
 Las vistas previas se guardan localmente en `assets/projects/` para que la presentación sea rápida y consistente. Cada tarjeta conserva el enlace al proyecto publicado.
