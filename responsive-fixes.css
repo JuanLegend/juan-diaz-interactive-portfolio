@@ -1,0 +1,161 @@
+.showcase__track img,
+.project-card img {
+  height: auto !important;
+}
+
+@media (max-width: 760px) {
+  .project-card img {
+    height: calc((100vw - 48px) * .625) !important;
+  }
+}
+
+.section-heading--clean h2 {
+  grid-column: 2;
+}
+
+.project-list {
+  border-top: 1px solid var(--line);
+}
+
+.project__row {
+  grid-template-columns: 1fr 300px;
+}
+
+.showcase {
+  padding-top: 120px;
+  padding-bottom: 260px;
+  background: var(--paper);
+}
+
+.contact {
+  margin-top: 0;
+}
+
+.contact__curve {
+  top: -175px;
+  height: 225px;
+  transform: translateY(var(--curve-y, 0px)) scaleY(var(--curve-scale, 1));
+}
+
+.contact__inner {
+  transform: translateY(var(--contact-shift, 0px));
+  will-change: transform;
+}
+
+.contact__arrow {
+  position: absolute;
+  right: 2%;
+  top: -132px;
+  font-size: 34px;
+  font-weight: 300;
+}
+
+@media (max-width: 760px) {
+  .section-heading--clean h2 {
+    grid-column: auto;
+  }
+
+  .project-cards {
+    border-top: 1px solid var(--line);
+  }
+
+  .project-cards p {
+    display: block;
+  }
+
+  .showcase {
+    padding-top: 80px;
+    padding-bottom: 175px;
+  }
+
+  .contact__curve {
+    top: -95px;
+    height: 125px;
+  }
+
+  .contact__arrow {
+    right: 5%;
+    top: -102px;
+    font-size: 28px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .contact__inner {
+    transform: none;
+  }
+}
+
+/* Transición de cierre: el arco es una ventana de 10vh que recorta una
+   elipse blanca de gran tamaño, igual que la geometría de la referencia. */
+.showcase {
+  padding-bottom: 170px;
+}
+
+.contact {
+  overflow: hidden;
+}
+
+.contact__curve-wrap {
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--curve-height, 10vh);
+  min-height: 0;
+  overflow: hidden;
+  pointer-events: none;
+  transform: translateY(-1px);
+}
+
+.contact__curve {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 150%;
+  height: 750%;
+  border-radius: 50%;
+  background: var(--paper);
+  transform: translate(-50%, -86.666%);
+  transform-origin: center bottom;
+  will-change: transform;
+}
+
+.contact__inner {
+  position: relative;
+  z-index: 1;
+  padding-top: clamp(5em, 21vh, 12em);
+  transform: translateY(var(--footer-parallax, 0px));
+}
+
+.contact h2 {
+  font-size: clamp(72px, 7.5vw, 116px);
+}
+
+@media (max-width: 760px) {
+  .showcase {
+    padding-bottom: 130px;
+  }
+
+  .contact__curve-wrap {
+    height: var(--curve-height, 7.5vh);
+    min-height: 0;
+  }
+
+  .contact__curve {
+    top: 0;
+    left: 50%;
+    width: 170%;
+    height: 750%;
+    transform: translate(-50%, -86.666%);
+  }
+
+  .contact__inner {
+    padding-top: 12vh;
+  }
+
+  .contact h2 {
+    font-size: 54px;
+  }
+}

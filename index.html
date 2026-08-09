@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#989c9d">
+  <meta name="description" content="Portafolio de Juan José Díaz Quiñones, diseñador y desarrollador web colombiano enfocado en experiencias digitales memorables.">
+  <link rel="canonical" href="https://juan-diaz-interactive-portfolio.vercel.app/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://juan-diaz-interactive-portfolio.vercel.app/">
+  <meta property="og:title" content="Juan Díaz — Digital Designer & Developer">
+  <meta property="og:description" content="Diseño, código e interacción para marcas que quieren destacar.">
+  <meta property="og:image" content="https://juan-diaz-interactive-portfolio.vercel.app/assets/juan-hero.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Juan Díaz — Digital Designer & Developer">
+  <meta name="twitter:description" content="Diseño, código e interacción para marcas que quieren destacar.">
+  <meta name="twitter:image" content="https://juan-diaz-interactive-portfolio.vercel.app/assets/juan-hero.png">
+  <title>Juan Díaz — Digital Designer & Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Space+Mono:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="responsive-fixes.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <div class="loader" aria-hidden="true">
+    <div class="loader__dot"></div>
+    <div class="loader__words">
+      <span>Hola</span><span>Hello</span><span>Bonjour</span><span>Ciao</span><span>Olá</span><span>Bienvenido</span>
+    </div>
+  </div>
+
+  <aside class="menu" aria-hidden="true">
+    <button class="menu__close" type="button" aria-label="Cerrar menú">Cerrar</button>
+    <div class="menu__panel">
+      <p class="eyebrow">Navegación</p>
+      <nav aria-label="Navegación del menú">
+        <a href="#inicio"><span>01</span>Inicio</a>
+        <a href="#trabajo"><span>02</span>Trabajo</a>
+        <a href="#sobre-mi"><span>03</span>Sobre mí</a>
+        <a href="#contacto"><span>04</span>Contacto</a>
+      </nav>
+      <div class="menu__bottom">
+        <p class="eyebrow">Encuéntrame</p>
+        <div>
+          <a href="https://instagram.com/juandzq" target="_blank" rel="noreferrer">Instagram</a>
+          <a href="https://wa.me/573174686855" target="_blank" rel="noreferrer">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <header class="topbar">
+    <a class="brand magnetic" href="#inicio" aria-label="Volver al inicio">
+      <span>©</span>
+      <span class="brand__swap"><i>Hecho por</i><i>Juan José</i></span>
+    </a>
+    <nav class="topbar__nav" aria-label="Navegación principal">
+      <a class="magnetic" href="#trabajo">Trabajo</a>
+      <a class="magnetic" href="#sobre-mi">Sobre mí</a>
+      <a class="magnetic" href="#contacto">Contacto</a>
+    </nav>
+    <button class="menu-button magnetic" type="button" aria-label="Abrir menú" aria-expanded="false">
+      <span>Menú</span><i></i><i></i>
+    </button>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="inicio">
+      <div class="hero__photo" aria-hidden="true">
+        <img src="assets/juan-hero.png" alt="" width="1024" height="1536" fetchpriority="high">
+      </div>
+
+      <div class="location-pill reveal">
+        <span>Ubicado<br>en Colombia</span>
+        <div class="globe" aria-label="Mundo animado" role="img">
+          <div class="globe__core">
+            <i class="globe__equator"></i>
+            <i class="globe__latitude globe__latitude--one"></i>
+            <i class="globe__latitude globe__latitude--two"></i>
+            <i class="globe__longitude globe__longitude--one"></i>
+            <i class="globe__longitude globe__longitude--two"></i>
+            <i class="globe__longitude globe__longitude--three"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__role reveal">
+        <span class="hero__arrow" aria-hidden="true">↘</span>
+        <p>Diseñador Web<br>& Desarrollador</p>
+      </div>
+
+      <div class="name-marquee" aria-label="Juan José Díaz Quiñones">
+        <div class="name-marquee__track">
+          <h1>Juan José Díaz Quiñones —</h1>
+          <h1 aria-hidden="true">Juan José Díaz Quiñones —</h1>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro section-pad" id="sobre-mi">
+      <div class="intro__statement reveal-lines">
+        <p>Ayudo a marcas a destacar en la era digital. Juntos creamos una presencia que se siente <em>clara, humana y memorable.</em></p>
+      </div>
+      <div class="intro__aside reveal">
+        <p>Mi interés por el diseño, el código y la interacción me permite convertir ideas en experiencias web completas, no solo en pantallas bonitas.</p>
+      </div>
+      <a class="round-button magnetic" href="#perfil"><span>Conóceme</span></a>
+    </section>
+
+    <section class="profile section-pad" id="perfil">
+      <div class="section-heading section-heading--clean reveal">
+        <h2>Diseño con intención.<br>Código con detalle.</h2>
+      </div>
+      <div class="profile__grid">
+        <div class="profile__portrait reveal">
+          <img src="assets/juan-hero.png" alt="Retrato de Juan José Díaz Quiñones" width="1024" height="1536" loading="lazy">
+        </div>
+        <div class="profile__copy reveal">
+          <p class="profile__lead">Soy Juan José, diseñador y desarrollador web colombiano.</p>
+          <p>Disfruto construir sitios que se sienten fluidos desde el primer segundo: buena jerarquía, movimiento preciso, código mantenible y una identidad que no parece sacada de una plantilla.</p>
+          <div class="profile__facts">
+            <div><span>Enfoque</span><p>Diseño web & Frontend</p></div>
+            <div><span>Ubicación</span><p>Colombia · Remoto</p></div>
+            <div><span>Disponible</span><p>Proyectos selectos</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section-pad" id="trabajo">
+      <div class="project-list" aria-label="Selección de proyectos de Juan José">
+        <a class="project" href="https://carnes-de-res-rojas.vercel.app/" target="_blank" rel="noreferrer" data-image="assets/projects/carnes-rojas.png">
+          <div class="project__row"><h3>Carnes Rojas</h3><p>Branding & Desarrollo</p></div>
+        </a>
+        <a class="project" href="https://foto-quince-cali.vercel.app/" target="_blank" rel="noreferrer" data-image="assets/projects/foto-quince.png">
+          <div class="project__row"><h3>Foto Quince</h3><p>Diseño & Desarrollo</p></div>
+        </a>
+        <a class="project" href="https://el-rancho-de-jonas.vercel.app/" target="_blank" rel="noreferrer" data-image="assets/projects/rancho-jonas.png">
+          <div class="project__row"><h3>Rancho de Jonás</h3><p>UX & Desarrollo</p></div>
+        </a>
+        <a class="project" href="https://abogados-cali-juridicos.vercel.app/" target="_blank" rel="noreferrer" data-image="assets/projects/abogados-cali.png">
+          <div class="project__row"><h3>Jurídicos</h3><p>Diseño & Desarrollo</p></div>
+        </a>
+        <a class="project" href="#inicio" data-image="assets/projects/portfolio-juan.png">
+          <div class="project__row"><h3>Juan José</h3><p>Dirección & Frontend</p></div>
+        </a>
+      </div>
+
+      <div class="project-preview" aria-hidden="true">
+        <div class="project-preview__art"></div><div class="project-preview__button">Ver</div>
+      </div>
+
+      <div class="project-cards">
+        <a class="project-card" href="https://carnes-de-res-rojas.vercel.app/" target="_blank" rel="noreferrer"><img src="assets/projects/carnes-rojas.png" alt="Portada del proyecto Carnes Rojas" width="1440" height="900" loading="lazy"><h3>Carnes Rojas</h3><p>Branding & Desarrollo</p></a>
+        <a class="project-card" href="https://foto-quince-cali.vercel.app/" target="_blank" rel="noreferrer"><img src="assets/projects/foto-quince.png" alt="Portada del proyecto Foto Quince Cali" width="1440" height="900" loading="lazy"><h3>Foto Quince</h3><p>Diseño & Desarrollo</p></a>
+        <a class="project-card" href="https://el-rancho-de-jonas.vercel.app/" target="_blank" rel="noreferrer"><img src="assets/projects/rancho-jonas.png" alt="Portada del proyecto El Rancho de Jonás" width="1440" height="900" loading="lazy"><h3>Rancho de Jonás</h3><p>UX & Desarrollo</p></a>
+        <a class="project-card" href="https://abogados-cali-juridicos.vercel.app/" target="_blank" rel="noreferrer"><img src="assets/projects/abogados-cali.png" alt="Portada del proyecto Jurídicos Asociados" width="1440" height="900" loading="lazy"><h3>Jurídicos</h3><p>Diseño & Desarrollo</p></a>
+        <a class="project-card" href="#inicio"><img src="assets/projects/portfolio-juan.png" alt="Portada del portafolio de Juan José" width="1440" height="900" loading="lazy"><h3>Juan José</h3><p>Dirección & Frontend</p></a>
+      </div>
+    </section>
+
+    <section class="services section-pad">
+      <div class="section-heading section-heading--clean reveal"><h2>De la idea<br>al navegador.</h2></div>
+      <div class="services__list">
+        <article class="reveal"><span>01</span><h3>Diseño web</h3><p>Dirección visual, UX, interfaces responsive y sistemas que conservan su identidad en cada pantalla.</p></article>
+        <article class="reveal"><span>02</span><h3>Desarrollo frontend</h3><p>Experiencias rápidas y mantenibles con HTML semántico, CSS moderno y JavaScript orientado al detalle.</p></article>
+        <article class="reveal"><span>03</span><h3>Interacción & motion</h3><p>Animaciones, microinteracciones y transiciones que aportan significado sin estorbar el contenido.</p></article>
+      </div>
+    </section>
+
+    <section class="showcase" aria-label="Galería en movimiento de proyectos">
+      <div class="showcase__viewport">
+        <div class="showcase__track showcase__track--forward">
+          <a href="https://carnes-de-res-rojas.vercel.app/" target="_blank" rel="noreferrer"><img src="assets/projects/carnes-rojas.png" alt="Carnes Rojas" width="1440" height="900" loading="lazy"><span>Carnes Rojas</span></a>
+          <a href="https://foto-quince-cali.vercel.app/" target="_blank" rel="noreferrer"><img src="assets/projects/foto-quince.png" alt="Foto Quince" width="1440" height="900" loading="lazy"><span>Foto Quince</span></a>
+          <a href="https://el-rancho-de-jonas.vercel.app/" target="_blank" rel="noreferrer"><img src="assets/projects/rancho-jonas.png" alt="El Rancho de Jonás" width="1440" height="900" loading="lazy"><span>Rancho de Jonás</span></a>
+          <a href="https://abogados-cali-juridicos.vercel.app/" target="_blank" rel="noreferrer"><img src="assets/projects/abogados-cali.png" alt="Jurídicos Asociados" width="1440" height="900" loading="lazy"><span>Jurídicos</span></a>
+        </div>
+        <div class="showcase__track showcase__track--reverse">
+          <a href="#inicio"><img src="assets/projects/portfolio-juan.png" alt="Portafolio Juan José" width="1440" height="900" loading="lazy"><span>Juan José</span></a>
+          <a href="https://abogados-cali-juridicos.vercel.app/" target="_blank" rel="noreferrer"><img src="assets/projects/abogados-cali.png" alt="Jurídicos Asociados" width="1440" height="900" loading="lazy"><span>Jurídicos</span></a>
+          <a href="https://el-rancho-de-jonas.vercel.app/" target="_blank" rel="noreferrer"><img src="assets/projects/rancho-jonas.png" alt="El Rancho de Jonás" width="1440" height="900" loading="lazy"><span>Rancho de Jonás</span></a>
+          <a href="https://foto-quince-cali.vercel.app/" target="_blank" rel="noreferrer"><img src="assets/projects/foto-quince.png" alt="Foto Quince" width="1440" height="900" loading="lazy"><span>Foto Quince</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contacto">
+      <div class="contact__curve-wrap" aria-hidden="true">
+        <div class="contact__curve"></div>
+      </div>
+      <div class="contact__inner section-pad">
+        <div class="contact__title reveal">
+          <img src="assets/juan-hero.png" alt="" width="1024" height="1536" loading="lazy">
+          <h2>Trabajemos<br>juntos</h2>
+        </div>
+        <div class="contact__rule">
+          <span class="contact__arrow" aria-hidden="true">↙</span>
+          <a class="round-button round-button--blue magnetic" href="https://instagram.com/juandzq" target="_blank" rel="noreferrer"><span>Hablemos</span></a>
+        </div>
+        <div class="contact__links">
+          <a class="pill magnetic" href="tel:+573174686855">+57 317 468 6855</a>
+          <a class="pill magnetic" href="https://instagram.com/juandzq" target="_blank" rel="noreferrer">@juandzq</a>
+        </div>
+        <div class="contact__meta">
+          <div><p class="eyebrow">Versión</p><p>2026 © Edición</p></div>
+          <div><p class="eyebrow">Hora local</p><p id="local-time">--:-- COT</p></div>
+          <div class="contact__social"><p class="eyebrow">Contacto</p><p><a href="tel:+573174686855">Teléfono</a><a href="https://instagram.com/juandzq" target="_blank" rel="noreferrer">Instagram</a><a href="https://wa.me/573174686855" target="_blank" rel="noreferrer">WhatsApp</a></p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
