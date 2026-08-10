@@ -191,6 +191,10 @@
   transition-delay: .18s;
 }
 
+.projects.is-expanded .project--extra:nth-of-type(9) {
+  transition-delay: .24s;
+}
+
 .more-work {
   position: relative;
   isolation: isolate;
@@ -266,6 +270,10 @@
 
   .projects.is-expanded .project-card--extra:nth-of-type(8) {
     animation-delay: .24s;
+  }
+
+  .projects.is-expanded .project-card--extra:nth-of-type(9) {
+    animation-delay: .32s;
   }
 
   .more-work {
