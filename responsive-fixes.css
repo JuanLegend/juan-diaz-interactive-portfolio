@@ -159,3 +159,125 @@
     font-size: 54px;
   }
 }
+
+/* Lista de trabajos progresiva, basada en el botón "More work" original. */
+.project--extra {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  pointer-events: none;
+  border-color: transparent;
+  transform: translateY(32px);
+  transition: max-height .85s var(--ease), opacity .5s ease, transform .75s var(--ease), border-color .4s ease;
+}
+
+.projects.is-expanded .project--extra {
+  max-height: 174px;
+  opacity: 1;
+  pointer-events: auto;
+  border-color: var(--line);
+  transform: none;
+}
+
+.projects.is-expanded .project--extra:nth-of-type(6) {
+  transition-delay: .06s;
+}
+
+.projects.is-expanded .project--extra:nth-of-type(7) {
+  transition-delay: .12s;
+}
+
+.more-work {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 68px;
+  margin: 74px auto 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 100px;
+  background: transparent;
+  color: var(--ink);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.more-work__fill {
+  position: absolute;
+  z-index: -1;
+  left: -10%;
+  top: 100%;
+  width: 120%;
+  height: 220%;
+  border-radius: 50%;
+  background: var(--blue);
+  transition: transform .65s var(--ease);
+}
+
+.more-work__label {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 3px;
+  transition: color .35s ease;
+}
+
+.more-work__count {
+  position: relative;
+  top: -3px;
+  font-size: 9px;
+  line-height: 1;
+}
+
+.more-work:hover .more-work__fill,
+.projects.is-expanded .more-work__fill {
+  transform: translateY(-58%);
+}
+
+.more-work:hover .more-work__label,
+.projects.is-expanded .more-work__label {
+  color: white;
+}
+
+@media (max-width: 760px) {
+  .project-card--extra {
+    display: none;
+  }
+
+  .projects.is-expanded .project-card--extra {
+    display: block;
+    animation: projectCardReveal .75s var(--ease) both;
+  }
+
+  .projects.is-expanded .project-card--extra:nth-of-type(6) {
+    animation-delay: .08s;
+  }
+
+  .projects.is-expanded .project-card--extra:nth-of-type(7) {
+    animation-delay: .16s;
+  }
+
+  .more-work {
+    width: 150px;
+    height: 64px;
+    margin-top: 62px;
+  }
+}
+
+@keyframes projectCardReveal {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .project--extra {
+    transition: none;
+  }
+
+  .projects.is-expanded .project-card--extra {
+    animation: none;
+  }
+}
