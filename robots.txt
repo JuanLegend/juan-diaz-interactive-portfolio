@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://juan-diaz-interactive-portfolio.vercel.app/sitemap.xml
+Sitemap: https://juandzq.vercel.app/sitemap.xml
