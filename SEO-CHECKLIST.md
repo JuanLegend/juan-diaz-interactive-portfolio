@@ -1,6 +1,6 @@
 # Auditoría SEO: desarrollador web en Colombia
 
-URL objetivo: `https://juandzq.vercel.app/desarrollador-web-colombia/`
+URL objetivo: `https://juandzq.com/desarrollador-web-colombia/`
 
 Palabra clave principal: **desarrollador web en Colombia**
 
