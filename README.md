@@ -10,6 +10,10 @@ python -m http.server 8000
 
 Después abre `http://127.0.0.1:8000/`.
 
+## Dominio propio
+
+La migración de URLs públicas está automatizada. Consulta [DOMAIN-SETUP.md](DOMAIN-SETUP.md) antes de conectar el dominio en Vercel y usa `scripts/set-domain.ps1` para actualizar canonical, metadatos sociales, schema, robots y sitemap en una sola operación.
+
 ## Proyectos integrados
 
 - [Carnes Rojas](https://carnes-de-res-rojas.vercel.app/)
