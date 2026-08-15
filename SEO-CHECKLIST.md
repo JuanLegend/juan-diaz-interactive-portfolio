@@ -39,7 +39,7 @@ Variantes semánticas: **diseño web en Colombia**, **desarrollo de páginas web
 | 30 | Página huérfana evitada | Sí | Enlazada desde la portada y añadida al sitemap. |
 | 31 | CTA claro | Sí | `Cotizar proyecto`, con mensaje de WhatsApp preparado. |
 | 32 | Compartible | Sí | Open Graph y tarjeta grande para X con imagen 1200 x 630. |
-| 33 | Google Search Console y Bing | Pendiente externo | Requiere acceso a las propiedades. El sitemap ya está listo para enviarse. |
+| 33 | Google Search Console y Bing | Parcial | Bing se notificó con IndexNow. Google Search Console requiere acceso a la propiedad; el sitemap está listo para enviarse. |
 | 34 | Dominios de referencia | Plan definido | Directorios colombianos, cámaras de comercio, perfiles profesionales, clientes, proveedores y medios locales. |
 | 35 | Hreflang | No aplica | Solo existe una versión en español para Colombia. No se añaden etiquetas innecesarias. |
 | 36 | Adaptación por país | Sí | Español de Colombia, área servida Colombia, teléfono +57 y metadata `es-CO`. |
