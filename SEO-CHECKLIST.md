@@ -1,6 +1,6 @@
 # Auditoría SEO: desarrollador web en Colombia
 
-URL objetivo: `https://juandzq.com/desarrollador-web-colombia/`
+URL objetivo: `https://juandzq.com/desarrollador-web-colombia`
 
 Palabra clave principal: **desarrollador web en Colombia**
 
@@ -11,7 +11,7 @@ Variantes semánticas: **diseño web en Colombia**, **desarrollo de páginas web
 | 2 | Palabras clave principales mencionadas | Sí | La principal aparece en Title, descripción, URL, H1, primer párrafo, alt y schema. |
 | 3 | Un H1 y un Title | Sí | Un H1 visible y un único elemento Title. |
 | 4 | Jerarquía de encabezados | Sí | H1, H2 por sección y H3 para contenidos subordinados. |
-| 5 | Palabra clave en URL | Sí | `/desarrollador-web-colombia/`. |
+| 5 | Palabra clave en URL | Sí | `/desarrollador-web-colombia`. |
 | 6 | Palabra clave en Title | Sí | `Desarrollador web en Colombia | Juan José Díaz`. |
 | 7 | Palabra clave en meta description | Sí | Incluida de forma natural al comienzo. |
 | 8 | Palabra clave en H1 | Sí | `Desarrollador web en Colombia.` |
